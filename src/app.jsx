@@ -29,7 +29,7 @@ const App = () => {
     {
       title: "Another To-Do List",
       link: "/index.html",
-      image: "https://picsum.photos/300/200?random=1",
+      image: "https://picsum.photos/300/200",
       date: "2024",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde perferendis sunt porro alias voluptates aliquam ipsam libero dolore doloremque quas, veritatis maiores molestiae sit et nihil officiis totam a laboriosam?",
@@ -37,7 +37,7 @@ const App = () => {
     {
       title: "Yet Another Landing Page",
       link: "/index.html",
-      image: "https://picsum.photos/300/200?random=2",
+      image: "https://picsum.photos/300/200",
       date: "2022",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde perferendis sunt porro alias voluptates aliquam ipsam libero dolore doloremque quas, veritatis maiores molestiae sit et nihil officiis totam a laboriosam?",
@@ -45,7 +45,7 @@ const App = () => {
     {
       title: "Minimal Blog Clone",
       link: "/index.html",
-      image: "https://picsum.photos/300/200?random=3",
+      image: "https://picsum.photos/300/200",
       date: "2020",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde perferendis sunt porro alias voluptates aliquam ipsam libero dolore doloremque quas, veritatis maiores molestiae sit et nihil officiis totam a laboriosam?",
@@ -53,7 +53,7 @@ const App = () => {
     {
       title: "Super Basic Portfolio",
       link: "/index.html",
-      image: "https://picsum.photos/200/100?random=4",
+      image: "https://picsum.photos/200/100",
       date: "2021",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde perferendis sunt porro alias voluptates aliquam ipsam libero dolore doloremque quas, veritatis maiores molestiae sit et nihil officiis totam a laboriosam?",
@@ -61,7 +61,7 @@ const App = () => {
     {
       title: "A Boring Dashboard",
       link: "/index.html",
-      image: "https://picsum.photos/150/150?random=5",
+      image: "https://picsum.photos/150/150",
       date: "2019",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde perferendis sunt porro alias voluptates aliquam ipsam libero dolore doloremque quas, veritatis maiores molestiae sit et nihil officiis totam a laboriosam?",
@@ -69,7 +69,7 @@ const App = () => {
     {
       title: "Form with a Button",
       link: "/index.html",
-      image: "https://picsum.photos/100/250?random=6",
+      image: "https://picsum.photos/100/250",
       date: "2023",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde perferendis sunt porro alias voluptates aliquam ipsam libero dolore doloremque quas, veritatis maiores molestiae sit et nihil officiis totam a laboriosam?",
@@ -77,7 +77,7 @@ const App = () => {
     {
       title: "Simple E-Commerce Page",
       link: "/index.html",
-      image: "https://picsum.photos/100/200?random=7",
+      image: "https://picsum.photos/100/200",
       date: "2025",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde perferendis sunt porro alias voluptates aliquam ipsam libero dolore doloremque quas, veritatis maiores molestiae sit et nihil officiis totam a laboriosam?",
@@ -85,7 +85,7 @@ const App = () => {
     {
       title: "Random Image Grid",
       link: "/index.html",
-      image: "https://picsum.photos/300/100?random=8",
+      image: "https://picsum.photos/300/100",
       date: "2024",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde perferendis sunt porro alias voluptates aliquam ipsam libero dolore doloremque quas, veritatis maiores molestiae sit et nihil officiis totam a laboriosam?",
@@ -93,7 +93,7 @@ const App = () => {
     {
       title: "One-Page Wonder",
       link: "/index.html",
-      image: "https://picsum.photos/200/300?random=9",
+      image: "https://picsum.photos/200/300",
       date: "2021",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde perferendis sunt porro alias voluptates aliquam ipsam libero dolore doloremque quas, veritatis maiores molestiae sit et nihil officiis totam a laboriosam?",
@@ -101,7 +101,7 @@ const App = () => {
     {
       title: "The Least Interactive Map",
       link: "/index.html",
-      image: "https://picsum.photos/100/100?random=10",
+      image: "https://picsum.photos/100/100",
       date: "2023",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde perferendis sunt porro alias voluptates aliquam ipsam libero dolore doloremque quas, veritatis maiores molestiae sit et nihil officiis totam a laboriosam?",
@@ -149,7 +149,7 @@ const App = () => {
         </div>
       </div>
 
-      {/* {projects.map((project, index) => (
+      {projects.map((project, index) => (
         <Card
           key={index}
           cardKey={index}
@@ -163,7 +163,7 @@ const App = () => {
           isHovering={isHovering}
           index={index}
         />
-      ))} */}
+      ))}
     </div>
   );
 };
